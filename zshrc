@@ -46,6 +46,8 @@ alias gb='git branch'
 alias gd='git diff'
 alias gp='git push'
 alias glast='git log -1 HEAD'
+alias gcgl='git config--global --list'
+alias grv='git remote -v'
 
 # Enable colors
 autoload -U colors && colors
