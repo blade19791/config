@@ -36,18 +36,20 @@ alias grep='grep --color=auto'
 
 # Git Aliases
 alias g='git'
+alias gi='git init'
 alias ga='git add'
 alias gc='git commit'
 alias gcm='git commit -m'
-alias gst='git status'
+alias gst='git status --short'
 alias gl='git log --oneline --graph --decorate --all'
 alias gco='git checkout'
 alias gb='git branch'
 alias gd='git diff'
 alias gp='git push'
 alias glast='git log -1 HEAD'
-alias gcgl='git config--global --list'
+alias gc='git config --global --list'
 alias grv='git remote -v'
+alias gcl='git clone'
 
 # Enable colors
 autoload -U colors && colors
