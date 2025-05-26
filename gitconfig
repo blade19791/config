@@ -1,0 +1,30 @@
+[user]
+	name = *********
+	email = ********@gmail.com
+[alias]
+	st = status
+	co = checkout
+	cm = commit -m
+	br = branch
+	last = log -1 HEAD
+	lg = log --oneline --graph --all --decorate
+	use-vscode = !git config --global core.editor \\\"code --wait\\\"
+	use-nvim = !git config --global core.editor nvim
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+	autocrlf = input
+	excludesfile = /home/blade/.gitignore_global
+	preloadindex = true         # Speeds up git status, safe to enable
+	editor = \"code
+
+[color]
+	ui = auto
+
+[status]
+	branch = true
+	showstash = true
+	showuntrackedfiles = all
+
+

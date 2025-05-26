@@ -1,0 +1,89 @@
+# ------------------
+# Java
+# ------------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+bin/
+build/
+out/
+target/
+*.log
+
+# IDEs & tools
+*.iml
+.idea/
+.vscode/
+*.classpath
+*.project
+.settings/
+.mvn/
+*.jks
+
+# Maven / Gradle
+.mvn/
+target/
+.gradle/
+build/
+
+# ------------------
+# JavaScript / Node.js
+# ------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# ------------------
+# C / C++
+# ------------------
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# Build directories
+build/
+bin/
+
+# ------------------
+# General
+# ------------------
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.old
+*.orig
+
